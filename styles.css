@@ -1,0 +1,45 @@
+/* CSS Variables */
+
+:root {
+    /* Colors */
+
+    --clr-darkest-blue: hsl(229, 23%, 23%);
+    --clr-dark-blue: hsl(227, 10%, 46%);
+    --clr-gray: hsl(0, 0%, 59%);
+    --clr-blue: hsl(185, 75%, 39%);
+
+    /* Fonts */
+
+    --ff: 'Kumbh Sans', sans-serif;
+    --fs-big: 22px;
+    --fs-small: 18px;
+    --fw-regular: 400;
+    --fw-bold: 700;
+}
+
+/* General attributes */
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-areas: 
+    "..."
+    ". card ."
+    ". footer .";
+    grid-gap: 30px;
+    background-color: var(--clr-blue);
+    background-repeat: no-repeat;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: 0% -400px, 100% 500px;
+}
