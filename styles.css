@@ -64,6 +64,7 @@ body {
     overflow: hidden;
     width: clamp(300px, 90vw, 350px);
     justify-self: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 .card__background {
@@ -156,10 +157,6 @@ body {
     font-family: var(--ff);
     font-size: var(--fs-very-small);
     color: white;
-}
-
-.attribution__link:link {
-    color: var(--clr-blue);
 }
 
 /* Background media query */
