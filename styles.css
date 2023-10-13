@@ -39,7 +39,7 @@ body {
     background-color: var(--clr-blue);
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
-    background-position: 0px -300px, 900px 500px;
+    background-position: right 50vw bottom 40vh, left 50vw top 40vh;;
 }
 
 /* Card Styling */
@@ -138,19 +138,4 @@ body {
     font-weight: var(--fw-regular);
     margin: 0;
     text-align: center;
-}
-
-/* Background media query */
-
-@media (max-width: 1200px) {
-    body {
-        background-position: -400px -400px, 400px 500px;
-    }
-}
-
-
-@media (max-width: 600px) {
-    body {
-        background-position: -650px -400px, 150px 500px;
-    }
 }
