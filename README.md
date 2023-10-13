@@ -1,6 +1,10 @@
 # Profile-card-component
-- **This is my fourth Front-End Mentor project. If you want to see it live you can do it here: https://avoscanemile.github.io/Profile-card-component/**
+Frontend Mentor is a website where front-end developers get a design and are asked to make it into a page to practice their skills. This repository is my approach for the following design: https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ
 
-- **You can see the desktop and the mobile design on the /design folder of this project.**
+If you want to see this repository live you can do it here: https://avoscanemile.github.io/Profile-card-component/
 
-- FrontEnd Mentor is a website where front-end developers get a design and are asked to make it into a page to practice their skills. This repository is my approach for the making of the first project on this page. I do not own this design or idea. If you want to try out the website you can do it here: https://www.frontendmentor.io/.
+**I do not own this design. If you've any questions related to it you should clarify them in the Frontend Mentor website.** 
+## CSS features used in this project:
+**Grid:** Grid makes easy work of these components that sit in between other two components. Pretty useful in that regard.
+**Flexbox:** I mainly use CSS Flexbox in the making of the vast majority of my projects since it's simpler and quicker to use than CSS Grid. The only exception being really problematic situations where you need to force two objects on top of eachother, or really complex grids with multiple aspect ratios.  
+**Variables:** CSS Variables make it way simpler to work with colors, font weights, font sizes, font familys, and shadows. I completely recommend to anyone learning CSS to master them.
