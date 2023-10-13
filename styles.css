@@ -33,14 +33,9 @@ body {
     margin: 0;
     min-height: 100vh;
     overflow: hidden;
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    grid-template-rows: 1fr auto 1fr;
-    grid-template-areas: 
-    ". . ."
-    ". card ."
-    ". footer .";
-    grid-row-gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--clr-blue);
     background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
     background-repeat: no-repeat;
@@ -50,7 +45,6 @@ body {
 /* Card Styling */
 
 .card {
-    grid-area: card;
     background: white;
     display: grid;
     grid-template-rows: auto 48px 48px auto;
@@ -75,6 +69,7 @@ body {
 .card__profile-image {
     grid-area: profile-img / profile-img / profile-info / profile-img;
     justify-self: center; 
+    align-self: center;
     border-radius: 50%;
     border: 5px solid white;
 }
@@ -143,20 +138,6 @@ body {
     font-weight: var(--fw-regular);
     margin: 0;
     text-align: center;
-}
-
-/* Attribution styling */
-
-.attribution {
-    grid-area: footer;
-    align-self: end;
-    justify-self: center;
-}
-
-.attribution__text {
-    font-family: var(--ff);
-    font-size: var(--fs-very-small);
-    color: white;
 }
 
 /* Background media query */
