@@ -115,6 +115,8 @@ The profile card component, defined by the `.card` class, is the central piece o
 
 - `.card__social-info`: Focuses on the container for social media statistics. It employs flexbox to arrange the statistics horizontally with space between them.
 
+- `.card__number` and `.card__number-tag`: These classes style the numerical values and their associated tags (e.g., "Followers," "Likes," "Photos") within the social media statistics. They use the defined font family, font size, font weight, and text color for consistency.
+
 ## CSS Functions Used
 
 - **hsl() Function**: The `--clr-darkest-blue` and other color variables use the `hsl()` function to define colors with specific hue, saturation, and lightness values.
@@ -128,8 +130,5 @@ The profile card component, defined by the `.card` class, is the central piece o
 - **clamp() Function**: The `width` property in the `.card` class uses the `clamp()` function to create a responsive width for the card based on the viewport width. It ensures that the card's width adapts to various screen sizes.
 
    Example: `width: clamp(300px, 90vw, 350px);`
-
-
-- `.card__number` and `.card__number-tag`: These classes style the numerical values and their associated tags (e.g., "Followers," "Likes," "Photos") within the social media statistics. They use the defined font family, font size, font weight, and text color for consistency.
 
 **For more information on the HTML/CSS please refer to the files provided in the project**
