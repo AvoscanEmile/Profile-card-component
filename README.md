@@ -50,15 +50,26 @@ The HTML structure of the profile card component is designed to be clean and sem
 
         - `<p class="card__location">London</p>`: The person's location is displayed with styling provided by the 'card__location' class.
 
-      - `<div class="card__social-info">`: This div contains the social media statistics.
+        - `<div class="card__social-info">`: Contains the social media statistics.
+        
+          - `<div class="card__followers">`: Displays information about followers.
+        
+            - `<p class="card__number">80K</p>`: Displays the number of followers with the 'card__number' class.
+        
+            - `<p class="card__number-tag">Followers</p>`: Indicates that these numbers represent followers using the 'card__number-tag' class.
+        
+          - `<div class="card__likes">`: Provides statistics on likes.
+        
+            - `<p class="card__number">803K</p>`: Displays the number of likes with the 'card__number' class.
+        
+            - `<p class="card__number-tag">Likes</p>`: Indicates that these numbers represent likes using the 'card__number-tag' class.
+        
+          - `<div class="card__photos">`: Displays information about the number of photos.
+        
+            - `<p class="card__number">1.4K</p>`: Shows the number of photos with the 'card__number' class.
+        
+            - `<p class="card__number-tag">Photos</p>`: Indicates that these numbers represent photos using the 'card__number-tag' class.
 
-        - `<div class="card__followers">`: Information about followers is styled within this div.
-
-          - `<p class="card__number">80K</p>`: The number of followers is displayed using the 'card__number' class.
-
-          - `<p class="card__number-tag">Followers</p>`: The tag "Followers" is styled using the 'card__number-tag' class.
-
-        - Similar structures are used for displaying likes and photos statistics.
 
 ## CSS Styles
 
